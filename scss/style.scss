@@ -1,0 +1,29 @@
+
+@import './base/vars';
+@import './base/maps';
+@import './base/extend';
+@import './base/mixin';
+
+
+
+@import './componentes/header';
+@import './componentes/footer';
+@import './componentes/portada';
+@import './componentes/container-nosotros';
+@import './componentes/separator-common';
+@import './componentes/galeria';
+@import './componentes/como-comprar.scss';
+@import './componentes/tabla';
+@import './componentes/contacto';
+
+
+// reemplazar var  color por maps color 
+//NOTAS
+// no subor archivos de SASS en la vida real
+// subir SASS solo para corregir !!
+
+// VER MIXIN  = no cambia color !
+// poner ancho de footer para todas las paginas 
+// ORDENAR LOS TAG , si es h1,h2.h3,h4,h5,h6!
+// ORDENAR LOS TAG DE TITULO , HEADER, FOOTER, MAIN
+// LAS IMAGENES MOVERLAS A EXTENSION > WEBP 

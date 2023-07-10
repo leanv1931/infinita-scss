@@ -1,0 +1,8 @@
+
+@mixin style-parrafo($cl){
+    color: $cl;
+}
+
+@mixin height-footer($size){
+    height: $size;
+}

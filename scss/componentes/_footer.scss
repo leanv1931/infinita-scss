@@ -1,0 +1,22 @@
+/* Estilos para el footer */
+footer {
+    padding: map-get($footer-mapa, pding);
+    font-size:  map-get($footer-mapa, font-size-footer);
+    text-align: map-get($footer-mapa, text-center);
+    @include height-footer(400px);
+    @extend %row;   
+    h2{
+        color: map-get($map: $footer-mapa, $key: text-clr);
+        font-size: map-get($footer-mapa, font-size-h2);
+    }
+}
+
+
+p h3 {
+    padding-top: 70px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    text-align: center; 
+    letter-spacing: 2px; 
+    @include style-parrafo(rgb(25, 27, 25));
+}

@@ -1,0 +1,19 @@
+.separatorGaleria {
+    height: 20px;
+    background-color: $color-page;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mostrar 3 imágenes por fila */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    background-color: $color-back;
+    margin: 10px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Ajustar el tamaño de la imagen para llenar el contenedor */
+        border-radius: 8px; /* Agregar esquinas redondeadas a las imágenes */
+    }
+}

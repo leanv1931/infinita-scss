@@ -1,0 +1,36 @@
+/* Estilos para el video de portada */
+.portada-video {
+    position: relative;
+    height: 1200px;
+    overflow: hidden;
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.portada-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:$color-texto;
+    z-index: 1;
+    h2 { // portada-text h2 
+        font-size: 70px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        opacity: 0.9;
+    }
+    p { // .portada-text p // NO .portada-text h2 p ! 
+        font-size: 20px;
+        opacity: 0.8;
+    }
+}
+

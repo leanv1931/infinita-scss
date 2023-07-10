@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    thead{
+        tr {
+            text-align: center;
+        }
+        th {
+            background-color: #A80059;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            text-align: left;
+        }
+    }
+    tbody{
+        td {
+            padding: 10px;
+            border-bottom: 2px solid #A80059;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+    }
+    
+}
+
+
+
+
+
+
+  
+
